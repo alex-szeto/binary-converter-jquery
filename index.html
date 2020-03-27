@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Text Converter</h1>
+    
+    <select id="type">
+        <option value="binary">Binary</option>
+        <option value="ascii">ASCII</option>
+        <option value="base32">Base 32</option>
+        <option value="base64">Base 64</option>
+    </select>
+
+    <input type="text" id="inputString"/>
+    <button id="submit">Convert</button>
+
+    <br><br>
+
+    <textarea rows="4" cols="50" id="output">
+    Input will appear here
+    </textarea>
+
+
+</body>
+    <script src="https://code.jquery.com/jquery-2.1.1.js"> </script>
+    <script src="./index.js"></script>
+</html>
